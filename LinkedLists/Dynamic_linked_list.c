@@ -23,6 +23,7 @@ int main()
         temp->next = NULL;
         if (temp->number == -1)
         {
+            free(temp);
             break;
         }
         else if (head == NULL)
